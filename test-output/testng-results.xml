@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-09T15:27:39 MEZ" name="Suite" finished-at="2023-03-09T15:28:01 MEZ" duration-ms="21500">
+    <groups>
+      <group name="bonding">
+        <method signature="TC_Class.tc01LaunchURL()[pri:0, instance:org.example.TC_Class@1cefc4b3]" name="tc01LaunchURL" class="org.example.TC_Class"/>
+        <method signature="TC_Class.tc02VerifyLaunchPage()[pri:0, instance:org.example.TC_Class@1cefc4b3]" name="tc02VerifyLaunchPage" class="org.example.TC_Class"/>
+        <method signature="TC_Class.tc03EnterCredentials()[pri:0, instance:org.example.TC_Class@1cefc4b3]" name="tc03EnterCredentials" class="org.example.TC_Class"/>
+      </group> <!-- bonding -->
+      <group name="strong_ties">
+        <method signature="TC_Class.tc01LaunchURL()[pri:0, instance:org.example.TC_Class@1cefc4b3]" name="tc01LaunchURL" class="org.example.TC_Class"/>
+        <method signature="TC_Class.tc03EnterCredentials()[pri:0, instance:org.example.TC_Class@1cefc4b3]" name="tc03EnterCredentials" class="org.example.TC_Class"/>
+        <method signature="TC_Class.tc04VerifyLoggedInPage()[pri:0, instance:org.example.TC_Class@1cefc4b3]" name="tc04VerifyLoggedInPage" class="org.example.TC_Class"/>
+      </group> <!-- strong_ties -->
+    </groups>
+    <test started-at="2023-03-09T15:27:39 MEZ" name="Guru 99 Smoke Test Demo" finished-at="2023-03-09T15:28:01 MEZ" duration-ms="21500">
+      <class name="org.example.TC_Class">
+        <test-method signature="tc01LaunchURL()[pri:0, instance:org.example.TC_Class@1cefc4b3]" started-at="2023-03-09T15:27:39 MEZ" name="tc01LaunchURL" finished-at="2023-03-09T15:27:52 MEZ" duration-ms="12822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01LaunchURL -->
+        <test-method signature="tc02VerifyLaunchPage()[pri:0, instance:org.example.TC_Class@1cefc4b3]" started-at="2023-03-09T15:27:52 MEZ" name="tc02VerifyLaunchPage" finished-at="2023-03-09T15:27:52 MEZ" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02VerifyLaunchPage -->
+        <test-method signature="tc03EnterCredentials()[pri:0, instance:org.example.TC_Class@1cefc4b3]" started-at="2023-03-09T15:27:52 MEZ" name="tc03EnterCredentials" finished-at="2023-03-09T15:27:59 MEZ" duration-ms="6629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03EnterCredentials -->
+        <test-method signature="tc04VerifyLoggedInPage()[pri:0, instance:org.example.TC_Class@1cefc4b3]" started-at="2023-03-09T15:27:59 MEZ" name="tc04VerifyLoggedInPage" finished-at="2023-03-09T15:27:59 MEZ" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04VerifyLoggedInPage -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:org.example.TC_Class@1cefc4b3]" started-at="2023-03-09T15:27:59 MEZ" name="terminateBrowser" finished-at="2023-03-09T15:28:01 MEZ" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- org.example.TC_Class -->
+    </test> <!-- Guru 99 Smoke Test Demo -->
+  </suite> <!-- Suite -->
+</testng-results>
